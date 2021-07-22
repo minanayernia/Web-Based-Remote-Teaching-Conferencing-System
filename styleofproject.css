@@ -1,0 +1,274 @@
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    width: auto;
+}
+
+#Attendees{
+    text-align: left;
+    margin: 0 auto;
+    /* margin-bottom: 25px; */
+    /* padding: 10px; */
+    background: #fff;
+    height: 75%;
+    width: 80%;
+    /* border: 1px solid #a7a7a7; */
+    /* overflow: auto; */
+    border-radius: 4px;
+    /* border-bottom: 4px solid #a7a7a7; */
+    position: absolute;
+}
+
+#rightslidebar {
+    overflow-y:hidden;
+    overflow-x: hidden;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    height: 90%;
+    width: 18%;
+    float: right;
+    margin-left: 81%;
+    margin-top: 20px;
+}
+
+.leftslidebar {
+    background-color: white;
+    height: 200px;
+    width: 50px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 11;
+}
+
+#new-page {
+    background-color: wheat;
+    border-radius: 80px;
+}
+
+.leftbuttons {
+    position: fixed;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#acrivate_mic :hover{
+    background: rgba(0, 0, 0, 0.185);
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button :hover {
+    background-color: #ddd;
+}
+
+button :active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+    align-self: center;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.color-field {
+    border-radius: 30px;
+    margin-top: 9px;
+    height: 25px;
+    width: 25px;
+    border-color: black;
+    border: 1px solid;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 16;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    /* margin-bottom: 25px; */
+    /* padding: 10px; */
+    background: #fff;
+    height: 70%;
+    width: 80%;
+    /* border: 1px solid #a7a7a7; */
+    /* overflow: auto; */
+    border-radius: 4px;
+    /* border-bottom: 4px solid #a7a7a7; */
+    position: absolute;
+}
+
+#chat {
+    position: absolute;
+    bottom: 10px;
+}
+
+#results {
+    position: relative;
+    border: 1px solid #a7a7a7;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* yekta start */
+
+.text_active {
+    cursor: text;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+input[type='file'] {
+    color: transparent;
+}
+
+.custom-file-input::before {
+    color: black;
+    font-family: "Font Awesome 5 Free";
+    content: "\f093";
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: 900;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.custom-file-input:hover {
+    background-color: inherit;
+}
+
+
+/* yekta end */
+
+#export {
+    /* display: none; */
+    font-size: 10px;
+    border: 1px solid #a7a7a7;
+    margin-right: 15px;
+    float: right;
+}
+
+#export:hover {
+    background-color: #ddd;
+}
+
+#export-box {
+    position: relative;
+    width: 100%;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.button-user{
+    float : right;
+    background:rgb(216, 211, 211) ;
+}
+
+.dropdown-userbt{
+    font-size: 12px;
+}
+
+.presenter , .activete_mic , .leftslidebar , .button-user , .chng-host , .chng-pres , .chng-mic {
+    display: none;
+}
